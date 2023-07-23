@@ -6,7 +6,7 @@ import pickle
 from query_data import get_chain
 from threading import Lock
 
-with open("vectorstore.pkl", "rb") as f:
+with open("app/vectorstore.pkl", "rb") as f:
     vectorstore = pickle.load(f)
 
 
