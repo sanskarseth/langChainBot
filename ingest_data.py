@@ -12,7 +12,7 @@ load_dotenv()
 import os
 
 # Load Data
-loader = UnstructuredFileLoader("state_of_the_union.txt")
+loader = UnstructuredFileLoader("data.txt")
 raw_documents = loader.load()
 
 # Split text
